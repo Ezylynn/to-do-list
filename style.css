@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    height: 100vh;
+    background-color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+    min-width: 35%;
+    min-height: 50%;
+
+    background-color: chocolate;
+}
+
+
+.add-task-bar{
+    width: 100%;
+    height: 15%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    background-color: crimson;
+}
+
+.add-task-bar form{
+    min-width: 100%;
+    height: 100%;
+
+    background-color: blue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.add-task-bar form input{
+    min-width: 60%;
+    height: 30%;
+
+    margin-right: 1.5rem;
+    
+}
+
+
+.show-task-box{
+    min-width: 100%;
+    height: 85%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    background-color: coral;
+
+    overflow-y: scroll;
+
+
+}
+
+
+.show-task-box div{
+    min-width: 100%;
+    min-height: 33.3333333%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: azure;
+
+
+}
+
+.show-task-box div p{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+    background-color: chocolate;
+
+}
+
+.show-task-box div button{
+    width: 30%;
+    height: 70%;
+    text-align: center;
+
+    background-color: chocolate;
+
+}
